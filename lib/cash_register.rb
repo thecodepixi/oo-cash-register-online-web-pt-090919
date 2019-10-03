@@ -7,4 +7,8 @@ class CashRegister
     @discount = discount
   end 
   
+  def title(item, price)
+    @total += price 
+  end 
+  
 end 
